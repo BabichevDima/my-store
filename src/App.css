@@ -1,0 +1,11 @@
+.li {
+  color: #fff;
+  text-decoration: none;
+}
+.li:hover {
+  color: rgb(255, 136, 136);
+}
+
+.li.active {
+  color: rgb(255, 0, 0);
+}
