@@ -6,12 +6,7 @@ import Samsung from "../../../../src/image/image-men/2.jpg";
 import LG from "../../../../src/image/image-men/3.jpg";
 import Sony from "../../../../src/image/image-men/4.jpg";
 
-const Phones = {
-  one: iPhone,
-  two: Samsung,
-  three: LG,
-  fore: Sony,
-};
+const Phones = [iPhone, Samsung, LG, Sony];
 
 export const Men = (props) => {
   return (

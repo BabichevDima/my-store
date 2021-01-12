@@ -4,19 +4,12 @@ import styled from "@emotion/styled";
 export const Phone = ({ phones }) => {
   return (
     <Wrap>
-      <Img src={phones.one} />
+      {phones.map((imgUrl) => (
+        <Img src={imgUrl} />
+      ))}
     </Wrap>
   );
 };
-
-//   const allPhone = phones.map(() => {
-//     return (
-//       <Wrap>
-//         <Img src={allPhone} />
-//       </Wrap>
-//     );
-//   });
-// };
 
 const Wrap = styled.div``;
 
